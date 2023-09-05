@@ -20,23 +20,23 @@
   font-family: Vazir;
   font-style: normal;
   font-weight: 600;
-  src: url('./setup/assets/font/Vazir-FD.eot');
-  src: url('./setup/assets/font/Vazir-FD.eot') format('mbedded-opentype'),
-       url('./setup/assets/font/Vazir-FD.woff') format('woff'),
-       url('./setup/assets/font/Vazir-FD.ttf') format('truetype');
+  src: url('./setup/assets/font/Vazir.eot');
+  src: url('./setup/assets/font/Vazir.eot') format('mbedded-opentype'),
+       url('./setup/assets/font/Vazir.woff') format('woff'),
+       url('./setup/assets/font/Vazir.ttf') format('truetype');
 }
 @font-face{
   font-family: Vazir;
   font-style: normal;
   font-weight: 500;
-  src: url('./setup/assets/font/Vazir-Light-FD.eot');
-  src: url('./setup/assets/font/Vazir-Light-FD.eot') format('mbedded-opentype'),
-       url('./setup/assets/font/Vazir-Light-FD.woff') format('woff'),
-       url('./setup/assets/font/Vazir-Light-FD.ttf') format('truetype');
+  src: url('./setup/assets/font/Vazir-Light.eot');
+  src: url('./setup/assets/font/Vazir-Light.eot') format('mbedded-opentype'),
+       url('./setup/assets/font/Vazir-Light.woff') format('woff'),
+       url('./setup/assets/font/Vazir-Light.ttf') format('truetype');
 }
 body {
-  direction: rtl;
-  text-align: right;
+  direction: ltr;
+  text-align: left;
 }
 *{
   font-family: "Vazir"!important;
