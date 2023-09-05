@@ -64,7 +64,8 @@ export const IntroductionText = ({
             alignItems: "center",
             width: "100%",
             marginTop: "20px",
-          }}>
+          }}
+          className="buttonBox">
           {contentMode === true && (
             <ContentButton
               Text={ButtonText}
