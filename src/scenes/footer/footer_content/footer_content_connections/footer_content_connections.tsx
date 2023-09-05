@@ -1,7 +1,7 @@
 import { Box, Button, CircularProgress, Grid, IconButton, InputBase, Paper, styled } from "@mui/material"
 import { TextBox } from "components/box/text_box/text_box"
 import { FooterContentConnectionsSocialIcons } from "./footer_content_connections_social_icons/footer_content_connections_social_icons"
-import { West } from "@mui/icons-material"
+import { East } from "@mui/icons-material"
 import { palette } from "setup/theme/palette"
 import { useState } from "react"
 import { ButtonProps } from "services/type/type"
@@ -11,7 +11,7 @@ const titleStyle = {
         xs: "1.2rem",
     },
     fontWeight: "700",
-    textAlign: "right",
+    textAlign: "left",
     marginBottom: "30px",
 }
 
@@ -21,9 +21,6 @@ const PaperForm = styled(Paper)(({ theme }) => ({
     alignItems: 'center',
     width: '300px',
     [theme.breakpoints.down("md")]: {
-        width: '80%',
-    },
-    [theme.breakpoints.down("sm")]: {
         width: '100%',
     },
     height: "50px",
@@ -34,7 +31,7 @@ const PaperForm = styled(Paper)(({ theme }) => ({
         padding: '10px 21px 10px 5px'
     },
     "& .MuiButtonBase-root": {
-        borderRadius: "7px 0 0 7px",
+        borderRadius: "0 7px 7px 0",
         color: palette.neutral.main,
         backgroundColor: palette.violet.main,
         height: "100%",
@@ -72,10 +69,10 @@ export const FooterContentConnections = ({ onClickEvent, disabled, isLoading }: 
             display="flex"
             flexDirection="column">
             <Box display={{ md: "block", xs: "none" }}>
-                <TextBox text="همراه ما باشید!" variant='h2' textColor={palette.violet.main} textStyle={titleStyle} />
+                <TextBox text="be with us!" variant='h2' textColor={palette.violet.main} textStyle={titleStyle} />
                 <FooterContentConnectionsSocialIcons />
             </Box>
-            <TextBox text="عضو خبرنامه ما شوید" variant='h2' textColor={palette.violet.main} textStyle={titleStyle} />
+            <TextBox text="Subscribe to our newsletter" variant='h2' textColor={palette.violet.main} textStyle={titleStyle} />
 
             <PaperForm>
                 <InputBase
@@ -93,7 +90,7 @@ export const FooterContentConnections = ({ onClickEvent, disabled, isLoading }: 
                     <Button
                         disabled={loading}
                         onClick={handleOnClick}
-                        startIcon={<West />}
+                        startIcon={<East />}
                     >
                     </Button>
                 )}
