@@ -14,6 +14,9 @@ const CoverBox = styled(Box)(({ theme }) => ({
     height: "auto",
     minHeight: "750px",
     paddingTop: "70px",
+    "& .MuiBox-root.buttonBox": {
+      flexDirection: "column",
+    }
   },
   [theme.breakpoints.up('tabletM')]: {
     height: "auto",
@@ -22,6 +25,9 @@ const CoverBox = styled(Box)(({ theme }) => ({
   [theme.breakpoints.up('md')]: {
     height: "575px",
     minHeight: "auto",
+    "& .MuiBox-root.buttonBox": {
+      flexDirection: "row",
+    }
   },
   [theme.breakpoints.up('laptop')]: {
     paddingTop: "120px",
@@ -58,7 +64,8 @@ const CoverBox = styled(Box)(({ theme }) => ({
     [theme.breakpoints.down('md')]: {
       width: "auto"
     }
-  }
+  },
+
 }))
 
 const playButtonStyle = {
