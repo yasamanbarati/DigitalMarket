@@ -44,7 +44,7 @@ const titleStyle = {
     fontWeight: "800",
     lineHeight: "47px",
     letterSpacing: "0em",
-    textAlign: "right",
+    textAlign: "left",
     marginBottom: "15px"
 }
 const Imagestyle = {
