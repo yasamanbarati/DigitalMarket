@@ -20,9 +20,9 @@ const DrawerStyle = {
     '& .MuiDrawer-paper': {
         width: "269px",
         height: "calc( 100vh - 65px )",
-        right: "-24px",
+        right: "0px",
         top: "65px",
-        paddingRight: "40px",
+        paddingleft: "40px",
         background: "rgba(255, 255, 255, 0.2)",
         backdropFilter: "blur(16px)",
         position: "absolute"
@@ -37,7 +37,7 @@ export const MenuBar = ({ handleDrawerClose, open }: Props) => {
             anchor="right"
             open={open}
         >
-            <DrawerHeader sx={{ justifyContent: "flex-end" }}>
+            <DrawerHeader sx={{ justifyContent: "flex-start" }}>
                 <IconButton onClick={handleDrawerClose}>
                     <ChevronLeftIcon sx={{ fontSize: "2.5rem" }} />
                 </IconButton>

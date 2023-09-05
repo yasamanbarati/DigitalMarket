@@ -28,7 +28,7 @@ const LinkStyle = styled(Link)(({ theme }) => ({
   [theme.breakpoints.down("md")]: {
     position: "relative",
     margin: "20px 0",
-    justifyContent: "flex-start",
+    justifyContent: "flex-end",
     width: "100%",
     "&::after": {
       content: `''`,
@@ -91,7 +91,7 @@ export const NavbarLink = ({
       flexWrap={GridWrap}
       justifyContent="space-between"
       height="100%"
-      alignItems={{ xs: "flex-start", md: "center" }}>
+      alignItems={{ xs: "flex-end", md: "center" }}>
       <Grid
         item
         lg={7}
@@ -102,7 +102,7 @@ export const NavbarLink = ({
         sx={{
           display: "flex",
           justifyContent: "start",
-          alignItems: { xs: "flex-start", md: "center" },
+          alignItems: { xs: "flex-end", md: "center" },
           width: { xs: "86%", md: "auto" }
         }}>
         {LinksItems.map((itemLink, index) => (
@@ -115,7 +115,7 @@ export const NavbarLink = ({
       </Grid>
       <Grid item lg={2} md={3} height={{ xs: "50px" }} width={{ xs: "85%" }} marginBottom={{ xs: "30px", md: "auto" }}>
         <ContentButton
-          Text="همین الان ثبت نام کن"
+          Text="Register now"
           sxStyle={ContentButtonStyle}
         />
       </Grid>

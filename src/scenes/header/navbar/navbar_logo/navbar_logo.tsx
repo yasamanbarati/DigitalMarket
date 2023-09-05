@@ -1,24 +1,21 @@
-import { Grid, styled } from '@mui/material'
+import { Grid, styled, Typography } from '@mui/material'
 import { Link } from 'react-router-dom'
-import Logo from 'setup/assets/image/logo.png'
 
 const LogoGrid = styled(Grid)(({ theme }) => ({
-    "& .logo": {
-        height: "100%",
-        [theme.breakpoints.up('xs')]: {
-            width: "90px",
-        },
-        [theme.breakpoints.up('sm')]: {
-            width: "100px",
-        }
+    height: "100%",
+    "& h1": {
+        fontWeight: "800",
+        fontSize: "1rem",
+        letterSpacing: "-1px",
+        color: theme.palette.violet.main
     }
 }))
 
 export const NavbarLogo = () => {
     return (
         <LogoGrid lg={1} md={2} sm={6}>
-            <Link to="/" style={{ display: "flex" }}>
-                <img className='logo' src={Logo} alt="starBucks logo" width='100%' height='100%' />
+            <Link to="/" style={{ display: "flex", textDecoration: "none" }}>
+                <Typography variant="h1" >DIGITALMarket</Typography>
             </Link>
         </LogoGrid>
     )
