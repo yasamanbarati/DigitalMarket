@@ -67,7 +67,7 @@ const playButtonStyle = {
   justifyContent: "space-around",
   alignItems: "center",
   bottom: { md: "46px", xs: "-80px" },
-  left: { md: "0px", xs: "auto" },
+  right: { md: "0px", xs: "auto" },
   "& p": {
     color: palette.blue.main
   }
