@@ -14,7 +14,7 @@ const BackgroundBox = styled(Box)(({ theme }) => ({
             height: "101px",
             bottom: "0px",
             background: theme.palette.violet.main,
-            borderRadius: "0% 0% 100%",
+            borderRadius: "0% 10% 0%",
             transform: "matrix(1, 0, 0, -1, 0, 0)",
         },
     },
@@ -29,7 +29,7 @@ const BackgroundBox = styled(Box)(({ theme }) => ({
         height: "58px",
         top: "23%",
         background: theme.palette.blue.light,
-        borderRadius: "0% 0% 100%",
+        borderRadius: "0% 10% 0%",
         transform: "matrix(1, 0, 0, -1, 0, 0)",
     },
 }))

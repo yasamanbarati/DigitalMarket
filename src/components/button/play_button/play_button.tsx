@@ -17,7 +17,7 @@ const PlayArrowStyle = {
     background: palette.blue.main,
     boxShadow: "0px 4px 44px rgba(0, 0, 0, 0.25)",
     borderRadius: "50%",
-    transform: "matrix(-1, 0, 0, 1, 0, 0)",
+    transform: "inherit",
 }
 export const PlayButton = ({ onClickEvent, Text, IconButtonStyle }: Play_button) => {
     return (
@@ -26,7 +26,7 @@ export const PlayButton = ({ onClickEvent, Text, IconButtonStyle }: Play_button)
             disableRipple={false}
             aria-label="play/pause" sx={{
                 ...IconButtonStyle,
-                minWidth: { md: "200px", xs: "160px" },
+                minWidth: "165px",
                 height: "50px",
                 "&:hover": { backgroundColor: "transparent" }
             }} >

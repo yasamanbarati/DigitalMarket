@@ -62,9 +62,10 @@ export const IntroductionText = ({
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            width: { xs: "100%", md: "auto" },
+            width: "100%",
             marginTop: "20px",
-          }}>
+          }}
+          className="buttonBox">
           {contentMode === true && (
             <ContentButton
               Text={ButtonText}

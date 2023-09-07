@@ -10,7 +10,7 @@ const titleStyle = {
   },
   fontWeight: "700",
   lineHeight: "30px",
-  textAlign: "right",
+  textAlign: "left",
   marginBottom: "15px",
 }
 const textStyle = {
@@ -21,7 +21,7 @@ const textStyle = {
   },
   fontWeight: "500",
   lineHeight: "193.5%",
-  textAlign: "right",
+  textAlign: "left",
   marginBottom: "8px",
   transition: "0.8s ease",
   "&:hover": {

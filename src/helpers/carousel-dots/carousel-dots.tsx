@@ -10,7 +10,7 @@ const RootStyle = styled(Box, {
   alignItems: 'center',
   justifyContent: 'flex-end',
   position: "absolute",
-  right: "0",
+  left: "0",
   bottom: "-70px",
   '& li': {
     width: '20px',
@@ -70,7 +70,7 @@ export const CarouselDots = props => {
         <DotStyle
           className="dotActive"
           sx={{
-            bgcolor: '#e83551',
+            bgcolor: '#e82c59',
           }}
         />
       </DotWrapStyle>

@@ -50,7 +50,7 @@ export const CoverButton = ({ onClickEvent, sxStyle, icon, Text }: ButtonProps) 
                     md: "0.96rem",
                 }, ...sxStyle
             }}
-            endIcon={icon}
+            startIcon={icon}
         >
             {Text}
         </CustomButton>

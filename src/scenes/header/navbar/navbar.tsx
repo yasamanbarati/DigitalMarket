@@ -22,7 +22,7 @@ export const Navbar = () => {
       <Container maxWidth='xl'>
         <Toolbar sx={{
           paddingLeft: "0!important",
-          paddingRight: "0!important"
+          paddingleft: "0!important"
         }}>
           <Grid
             container
@@ -48,6 +48,7 @@ export const Navbar = () => {
               sx={{
                 flexGrow: 1,
                 display: { xs: 'none', md: 'flex' },
+                justifyContent: "flex-end"
               }}
             >
               <NavbarLink />

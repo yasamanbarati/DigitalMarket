@@ -8,19 +8,19 @@ export const palette = {
     contrastText: '#fff',
   },
   violet: {
-    main: '#e83551',
+    main: '#e82c59',
     light: '#e83551c7',
     contrastText: '#fff',
   },
   blue: {
-    main: '#052C65',
+    main: '#0a1c5d',
     light: '#dde3f7',
     contrastText: '#fff',
   },
   black: '#000000',
   orange: '#FFA726',
   footerBG: '#042030',
-  footerfootnoteBG: '#13284e',
+  footerfootnoteBG: '#0a1c36',
 }
 //#13284e  #e83551  #dde3f7  #FFA726
 declare module '@mui/material/styles' {
