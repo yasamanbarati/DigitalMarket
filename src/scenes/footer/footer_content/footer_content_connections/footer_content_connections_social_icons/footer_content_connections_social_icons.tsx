@@ -9,7 +9,6 @@ import { palette } from "setup/theme/palette"
 const SocialIconsBox = styled(Box)(({ theme }) => ({
     display: "flex",
     flexDirection: "row-reverse",
-    justifyContent: "flex-end",
     alignItems: "center",
     width: "100%",
     marginBottom: "40px",
@@ -29,7 +28,7 @@ const SocialIconsBox = styled(Box)(({ theme }) => ({
 }))
 export const FooterContentConnectionsSocialIcons = () => {
     return (
-        <SocialIconsBox>
+        <SocialIconsBox sx={{ justifyContent: { xs: 'space-between', md: "flex-end" } }}>
             <Twitter />
             <Instagram />
             <FaceBook />

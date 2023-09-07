@@ -11,7 +11,7 @@ const ScrollButton = styled(IconButton)(({ theme }) => ({
     color: palette.neutral.main,
     boxShadow: "0px 10px 16px #e83551c7",
     top: "-87px",
-    left: "56px",
+    right: "56px",
     zIndex: "3",
     cursor: "pointer",
     ":hover": {
@@ -20,7 +20,7 @@ const ScrollButton = styled(IconButton)(({ theme }) => ({
     },
     [theme.breakpoints.down("tabletL")]: {
         top: "-50px",
-        left: "15px",
+        right: "15px",
     },
 }))
 
