@@ -10,6 +10,7 @@ export const titleStyle = {
   letterSpacing: '0em',
   textAlign: 'left',
   marginBottom: '15px',
+  textWrap: 'nowrap',
 }
 export const textStyle = {
   fontSize: {
@@ -21,6 +22,11 @@ export const textStyle = {
   lineHeight: '29.63px',
   textAlign: 'left',
   color: 'rgba(121, 121, 121, 1)',
+  // display: "-webkit-box",
+  // -webkitLineClamp: "2",
+  // -webkitBoxOrient: "vertical",
+  // overflow: "hidden",
+  // textOverflow: "ellipsis",
 }
 export const coverTextStyle = {
   fontSize: {

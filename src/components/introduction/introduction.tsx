@@ -50,7 +50,7 @@ export const Introduction = ({
             item
             xs={12}
             laptop={6}
-            md={GridMode === true ? 6 : 7}
+            md={GridMode === true ? 6 : 5}
             height={{ md: '100%', xs: '50%' }}
             display="flex"
             alignItems="center"

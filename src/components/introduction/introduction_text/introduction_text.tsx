@@ -29,6 +29,7 @@ const IntroductionTextBox = styled(Box)(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
   flexDirection: "column",
+  alignItems: "flex-start",
   [theme.breakpoints.up('xs')]: {
     marginTop: "40px",
   },

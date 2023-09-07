@@ -11,6 +11,9 @@ const RootStyle = styled(Box, {
   justifyContent: 'flex-end',
   position: "absolute",
   left: "0",
+  [theme.breakpoints.down('tabletL')]: {
+    left: "-140px",
+  },
   bottom: "-70px",
   '& li': {
     width: '20px',

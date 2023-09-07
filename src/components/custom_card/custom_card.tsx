@@ -39,35 +39,33 @@ export const CustomCard = ({
   ImageMode,
 }: CustomCardProps) => {
   return (
-    <Card sx={cardStyle}>
+    <Card sx={cardStyle} className="CardAreaBox">
       {ImageMode === true && <Image src={ImageSrc} Imagestyle={Imagestyle} />}
-      <Box className="CardAreaBox">
-        {ContentMode === true ? (
-          <CardContent>
-            <IntroductionText
-              title={title}
-              text={text}
-              titleStyle={titleStyle}
-              textStyle={textStyle}
-              buttonBoxMode={false}
+      {ContentMode === true ? (
+        <CardContent>
+          <IntroductionText
+            title={title}
+            text={text}
+            titleStyle={titleStyle}
+            textStyle={textStyle}
+            buttonBoxMode={false}
+          />
+        </CardContent>
+      ) : (
+        <TextBox variant="h2" text={title} textStyle={titleStyle} />
+      )}
+      {actionMode === true && (
+        <CardActions sx={{ width: "100%" }}>
+          <IconButton sx={{ ":hover": { backgroundColor: "transparent" } }}>
+            <ArrowBack sx={arrowBackStyle} color={arrowBackColor} />
+            <TextBox
+              text={actionsText}
+              textStyle={actionsTextStyle}
+              textColor={textColor}
             />
-          </CardContent>
-        ) : (
-          <TextBox variant="h2" text={title} textStyle={titleStyle} />
-        )}
-        {actionMode === true && (
-          <CardActions sx={{ width: "100%" }}>
-            <IconButton sx={{ ":hover": { backgroundColor: "transparent" } }}>
-              <ArrowBack sx={arrowBackStyle} color={arrowBackColor} />
-              <TextBox
-                text={actionsText}
-                textStyle={actionsTextStyle}
-                textColor={textColor}
-              />
-            </IconButton>
-          </CardActions>
-        )}
-      </Box>
+          </IconButton>
+        </CardActions>
+      )}
     </Card>
   )
 }
