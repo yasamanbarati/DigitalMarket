@@ -83,7 +83,7 @@ export const token_applications: TokenApplicationsType[] = [
   },
 ]
 export const introduction_investment: TokenIntroductionType = {
-  title: 'Introduction of investment fund',
+  title: 'Introduction of investment',
   text: 'Many books in sixty-three percent of the past, present and future require a lot of knowledge from the society and experts in order to create more knowledge for computer designers, especially creative designers and leading culture in Persian language. Many books in Sixty-three percent of the past, present, and future require a lot of knowledge from the society and experts to create more knowledge for computer designers, especially creative designers and leading culture in Persian language. Many books on the past sixty-three percent, The present and the future require a lot of knowledge from the society and experts to provide more knowledge for computer designers with software.',
   contentButton: 'Free Consultation',
   src: token_introduction02,
