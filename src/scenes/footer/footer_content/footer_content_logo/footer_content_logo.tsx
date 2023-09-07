@@ -3,7 +3,7 @@ import { Box, styled, Typography } from '@mui/material'
 
 const LogoBox = styled(Box)(({ theme }) => ({
   "& a": {
-    height: "75px",
+    height: "auto",
     width: "235px",
   },
   "& h1": {

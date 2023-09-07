@@ -68,7 +68,7 @@ export const FooterContentConnections = ({ onClickEvent, disabled, isLoading }: 
             mt={5}
             display="flex"
             flexDirection="column">
-            <Box display={{ md: "block", xs: "none" }}>
+            <Box>
                 <TextBox text="be with us!" variant='h2' textColor={palette.violet.main} textStyle={titleStyle} />
                 <FooterContentConnectionsSocialIcons />
             </Box>
