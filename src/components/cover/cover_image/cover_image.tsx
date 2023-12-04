@@ -22,7 +22,7 @@ const CoverBox = styled(Box)(({ theme }) => ({
       width: "310px",
       height: "330px",
     },
-    [theme.breakpoints.up('mobileL')]: {
+    [theme.breakpoints.up('sm')]: {
       width: "430px",
       height: "420px",
     },
