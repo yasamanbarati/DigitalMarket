@@ -1,4 +1,4 @@
-import { Drawer, styled, IconButton, useTheme } from '@mui/material'
+import { Drawer, styled, IconButton } from '@mui/material'
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft'
 import { NavbarLink } from '../../navbar_link/navbar_link'
 
@@ -29,7 +29,7 @@ const DrawerStyle = {
     },
 }
 export const MenuBar = ({ handleDrawerClose, open }: Props) => {
-    const theme = useTheme()
+
     return (
         <Drawer
             sx={DrawerStyle}

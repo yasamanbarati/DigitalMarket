@@ -1,6 +1,5 @@
 import { ArrowUpward } from "@mui/icons-material"
 import { IconButton, styled } from "@mui/material"
-import { useState } from "react"
 import { palette } from "setup/theme/palette"
 
 const ScrollButton = styled(IconButton)(({ theme }) => ({

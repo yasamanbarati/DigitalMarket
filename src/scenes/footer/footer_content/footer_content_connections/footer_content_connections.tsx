@@ -1,4 +1,4 @@
-import { Box, Button, CircularProgress, Grid, IconButton, InputBase, Paper, styled } from "@mui/material"
+import { Box, Button, CircularProgress, Grid, InputBase, Paper, styled } from "@mui/material"
 import { TextBox } from "components/box/text_box/text_box"
 import { FooterContentConnectionsSocialIcons } from "./footer_content_connections_social_icons/footer_content_connections_social_icons"
 import { East } from "@mui/icons-material"

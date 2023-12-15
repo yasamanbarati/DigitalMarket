@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { Box, Button } from "@mui/material"
 import { ButtonProps } from "services/type/type"
 import googlePlay from 'setup/assets/image/googlePlay.png'
