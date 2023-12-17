@@ -26,8 +26,3 @@ tools
     
     - local storage 
 
-  Images
-
-  ![Uploading localhost_3000_DigitalMarket(Nest Hub Max).png…]()
-  ![Uploading localhost_3000_DigitalMarket(Samsung Galaxy A51_71).png…]()
-
